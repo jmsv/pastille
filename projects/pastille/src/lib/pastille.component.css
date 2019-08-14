@@ -1,0 +1,43 @@
+.pastilles-chart {
+  font-size: 0.8rem;
+  background: #fff;
+  display: flex;
+  border-radius: 5px;
+}
+
+.ind:first-child {
+  border-radius: 5px 0 0 5px;
+}
+.ind:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.ind {
+  cursor: inherit;
+  height: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  transition: width 0.5s;
+  transition-timing-function: ease;
+}
+
+.legend {
+  display:flex;
+  justify-content: flex-end;
+}
+
+.legend > div {
+  display: flex;
+  align-items: center;
+  margin: 0.8em 1em;
+}
+
+.legend-dot {
+  min-height: 0.8em;
+  min-width: 0.8em;
+  border-radius: 1.6em;
+  margin-right: 0.4em;
+}
