@@ -1,9 +1,9 @@
 import { Component, Input } from '@angular/core';
 
 interface IDataItem {
-  name: string
-  value: number
-  color: string
+  name: string;
+  value: number;
+  color: string;
 }
 
 @Component({
@@ -12,5 +12,5 @@ interface IDataItem {
   styleUrls: ['./pastille.component.css']
 })
 export class PastilleComponent {
-  @Input() data: IDataItem[] = []
+  @Input() data: IDataItem[] = [];
 }

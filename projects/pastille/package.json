@@ -1,8 +1,25 @@
 {
   "name": "pastille",
-  "version": "0.0.3",
+  "version": "0.0.4",
+  "description": "A percentage indicator chart thing for Angular",
+  "author": "James Vickery <dev@jamesvickery.net>",
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^7.2.0",
     "@angular/core": "^7.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmsv/pastille.git"
+  },
+  "keywords": [
+    "angular",
+    "ng",
+    "chart",
+    "percentage"
+  ],
+  "bugs": {
+    "url": "https://github.com/jmsv/pastille/issues"
+  },
+  "homepage": "https://github.com/jmsv/pastille#readme"
 }

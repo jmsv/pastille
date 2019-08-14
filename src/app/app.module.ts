@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { PastilleModule } from 'pastille';
+import { PastilleModule } from '../../projects/pastille/src/public-api';
 
 @NgModule({
   declarations: [
