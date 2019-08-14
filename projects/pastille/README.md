@@ -25,13 +25,13 @@ import { PastilleModule } from 'pastille';
 In your template:
 
 ```html
-<lib-pastille [stats]="stats"></lib-pastille>
+<lib-pastille [data]="data"></lib-pastille>
 ```
 
-Where `stats` is in the following format:
+Where `data` is in the following format:
 
 ```js
-stats = [{
+data = [{
   name: 'Downloaded',
   value: 50,
   color: '#8bc34a'
@@ -48,10 +48,4 @@ stats = [{
 
 ## Development
 
-### Build
-
-Run `ng build pastille` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-### Publishing
-
-After building your library with `ng build pastille`, go to the dist folder `cd dist/pastille` and run `npm publish`.
+`npm start` runs the example app on `localhost:1337`
