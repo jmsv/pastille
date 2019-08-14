@@ -1,6 +1,6 @@
 {
   "name": "pastille",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A percentage indicator chart thing for Angular",
   "author": "James Vickery <dev@jamesvickery.net>",
   "license": "MIT",
