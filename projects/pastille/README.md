@@ -2,6 +2,8 @@
 
 A linear bar kinda chart thing for Angular
 
+![pastille](https://user-images.githubusercontent.com/14852491/63027254-86621680-bea4-11e9-880e-518b5fb32f81.gif)
+
 ## Usage
 
 In your module:
