@@ -6,7 +6,7 @@
     "prestart": "ng build pastille",
     "start": "ng serve",
     "build": "ng build",
-    "lint": "ng lint",
+    "lint": "ng lint --fix",
     "build-lib": "ng build pastille",
     "npm-pack": "cd dist/pastille && npm pack",
     "package": "npm run build-lib && npm run npm-pack"
