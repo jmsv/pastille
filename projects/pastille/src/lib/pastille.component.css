@@ -1,18 +1,18 @@
-.pastilles-chart {
+.pastilles-container > .pastilles-chart {
   font-size: 0.8rem;
   background: #fff;
   display: flex;
   border-radius: 5px;
 }
 
-.ind:first-child {
+.pastille-indicator:first-child {
   border-radius: 5px 0 0 5px;
 }
-.ind:last-child {
+.pastille-indicator:last-child {
   border-radius: 0 5px 5px 0;
 }
 
-.ind {
+.pastille-indicator {
   cursor: inherit;
   height: 40px;
   color: white;
@@ -24,18 +24,18 @@
   transition-timing-function: ease;
 }
 
-.legend {
+.pastilles-container > .pastille-legend {
   display:flex;
   justify-content: flex-end;
 }
 
-.legend > div {
+.pastilles-container > .pastille-legend > div {
   display: flex;
   align-items: center;
   margin: 0.8em 1em;
 }
 
-.legend-dot {
+.pastille-legend-dot {
   min-height: 0.8em;
   min-width: 0.8em;
   border-radius: 1.6em;

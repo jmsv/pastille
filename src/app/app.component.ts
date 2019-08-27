@@ -24,6 +24,10 @@ export class AppComponent implements OnInit {
     }
   ];
 
+  public pastilleOptions = {
+    height: 40
+  }
+
   ngOnInit() {
     const changeStuff = () => {
       const dl = Math.round(40 + Math.random() * 20);
@@ -35,6 +39,5 @@ export class AppComponent implements OnInit {
     };
 
     setInterval(changeStuff, 1500);
-    changeStuff();
   }
 }
