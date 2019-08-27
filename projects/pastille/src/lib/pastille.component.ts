@@ -3,11 +3,11 @@ import { Component, Input, OnInit } from '@angular/core';
 interface IDataItem {
   name: string;
   value: number;
-  color: string;
+  color?: string;
 }
 
 interface IOptionsObject {
-  height?: number;
+  height?: string;
 }
 
 @Component({
@@ -22,6 +22,10 @@ export class PastilleComponent implements OnInit {
   ngOnInit() {
     Object.assign({
       height: 40
-    }, this.options)
+    }, this.options);
+
+    this.data.forEach(d => {
+      d.color = d.color || '#cfd8dc'
+    })
   }
 }

@@ -1,9 +1,9 @@
-<div class="pastilles-container">
-  <div class="pastilles-chart">
+<div class="pastille-container">
+  <div class="pastille-chart">
     <div
       *ngFor="let stat of data"
       [style.width]="stat.value + '%'"
-      [style.height]="options.height + 'px'"
+      [style.height]="options.height"
       [style.background]="stat.color"
       class="pastille-indicator"
     ></div>

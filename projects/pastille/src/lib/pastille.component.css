@@ -1,4 +1,4 @@
-.pastilles-container > .pastilles-chart {
+.pastille-container > .pastille-chart {
   font-size: 0.8rem;
   background: #fff;
   display: flex;
@@ -20,16 +20,15 @@
   align-items: center;
   justify-content: center;
   white-space: nowrap;
-  transition: width 0.5s;
-  transition-timing-function: ease;
+  transition: all 0.5s ease;
 }
 
-.pastilles-container > .pastille-legend {
+.pastille-container > .pastille-legend {
   display:flex;
   justify-content: flex-end;
 }
 
-.pastilles-container > .pastille-legend > div {
+.pastille-container > .pastille-legend > div {
   display: flex;
   align-items: center;
   margin: 0.8em 1em;
