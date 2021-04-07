@@ -1,11 +1,18 @@
-<div class="pastilles-chart mat-elevation-z4">
-  <div *ngFor="let stat of data" matRipple [style.width]="stat.value + '%'" [style.background]="stat.color" class="ind">
+<div class="pastille-container">
+  <div class="pastille-chart">
+    <div
+      *ngFor="let stat of data"
+      [style.width]="stat.value + '%'"
+      [style.height]="options.height"
+      [style.background]="stat.color"
+      class="pastille-indicator"
+    ></div>
   </div>
-</div>
 
-<div class="legend">
-  <div *ngFor="let stat of data">
-    <div class="legend-dot" [style.background]="stat.color"></div>
-    {{stat.name}} ({{stat.value}}%)
+  <div class="pastille-legend">
+    <div *ngFor="let stat of data">
+      <div class="pastille-legend-dot" [style.background]="stat.color"></div>
+      {{ stat.name }} ({{ stat.value }}%)
+    </div>
   </div>
 </div>

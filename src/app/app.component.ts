@@ -19,10 +19,13 @@ export class AppComponent implements OnInit {
     },
     {
       name: 'Not downloaded',
-      value: 20,
-      color: '#cfd8dc'
+      value: 20
     }
   ];
+
+  public pastilleOptions = {
+    height: '40px',
+  };
 
   ngOnInit() {
     const changeStuff = () => {
@@ -35,6 +38,5 @@ export class AppComponent implements OnInit {
     };
 
     setInterval(changeStuff, 1500);
-    changeStuff();
   }
 }
